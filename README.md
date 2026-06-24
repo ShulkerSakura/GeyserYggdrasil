@@ -1,7 +1,7 @@
 # GeyserYggdrasil
 
 A lightweight Java agent that lets [Geyser](https://github.com/GeyserMC/Geyser) authenticate Bedrock
-players with third-party Yggdrasil authentication server instead of a Microsoft account.
+players with third-party Yggdrasil authentication server.
 
 It is attached to Geyser at startup with `-javaagent` and requires **no source modifications** to Geyser,
 so it keeps working across most Geyser updates without re-patching.
