@@ -1,18 +1,10 @@
 # GeyserYggdrasil
 
 A lightweight Java agent that lets [Geyser](https://github.com/GeyserMC/Geyser) authenticate Bedrock
-players against a **third-party Yggdrasil authentication server** (any
-[authlib-injector](https://github.com/yushijinhun/authlib-injector)-compatible service, e.g. a private
-skin/auth server) instead of a Microsoft account.
+players with third-party Yggdrasil authentication server instead of a Microsoft account.
 
 It is attached to Geyser at startup with `-javaagent` and requires **no source modifications** to Geyser,
 so it keeps working across most Geyser updates without re-patching.
-
-## Why
-
-Geyser only supports logging in with a Microsoft account. If your Java server runs authlib-injector and
-points at a third-party Yggdrasil server, Bedrock players cannot normally join. This agent bridges that
-gap by hooking Geyser's login flow at runtime and routing authentication to your Yggdrasil server.
 
 ## Usage
 
