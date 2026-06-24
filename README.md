@@ -12,9 +12,6 @@ so it keeps working across most Geyser updates without re-patching.
 
 ## Building
 
-The project does not ship its own Gradle wrapper. Use any Gradle 9.x, or reuse the wrapper from a Geyser
-checkout placed alongside this repository.
-
 ```bash
 ./gradlew build
 ```
